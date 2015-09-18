@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_vertical_margin">
+
+    <ImageView
+        android:id="@+id/iv_que_haciendo"
+        android:layout_width="350dp"
+        android:layout_height="250dp"
+        android:background="#C9C977"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/tv_usuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Usuario"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/iv_que_haciendo"
+        android:layout_alignStart="@+id/iv_que_haciendo" />
+
+    <TextView
+        android:id="@+id/tv_lugar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lugar"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:layout_alignBottom="@+id/iv_que_haciendo"
+        android:layout_alignLeft="@+id/iv_que_haciendo"
+        android:layout_alignStart="@+id/iv_que_haciendo" />
+
+    <TextView
+        android:id="@+id/tv_fecha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fecha"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:layout_alignBottom="@+id/iv_que_haciendo"
+        android:layout_alignRight="@+id/iv_que_haciendo"
+        android:layout_alignEnd="@+id/iv_que_haciendo" />
+
+</RelativeLayout>
