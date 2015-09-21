@@ -64,6 +64,12 @@ public class PerfilActivity extends AppCompatActivity {
                         ft.commit();
                         drawerLayout.closeDrawers();
                         return true;
+                    case R.id.drawer_amigos:
+                        ft = fm.beginTransaction();
+                        ft.replace(R.id.fm_perfil_content, AmigosFragment.newInstance());
+                        ft.commit();
+                        drawerLayout.closeDrawers();
+                        return true;
                 }
                 return false;
             }

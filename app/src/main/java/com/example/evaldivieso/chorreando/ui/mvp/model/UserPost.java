@@ -7,6 +7,7 @@ public class UserPost {
     private String username;
     private String lugar;
     private String fecha;
+    private String fotoURL;
 
     public UserPost(String username, String lugar, String fecha) {
         this.username = username;
@@ -36,5 +37,13 @@ public class UserPost {
 
     public void setFecha(String fecha) {
         this.fecha = fecha;
+    }
+
+    public String getFotoURL() {
+        return fotoURL;
+    }
+
+    public void setFotoURL(String fotoURL) {
+        this.fotoURL = fotoURL;
     }
 }

@@ -8,12 +8,18 @@
         <item
             android:id="@+id/drawer_perfil"
             android:checked="true"
+            android:icon="@mipmap/ic_user"
             android:title="@string/title_activity_perfil"/>
 
         <item
             android:id="@+id/drawer_que_haciendo"
-            android:checked="true"
+            android:icon="@mipmap/ic_walk"
             android:title="@string/title_activity_que_haciendo"/>
+
+        <item
+            android:id="@+id/drawer_amigos"
+            android:icon="@mipmap/ic_users"
+            android:title="@string/title_activity_amigos"/>
 
     </group>
 

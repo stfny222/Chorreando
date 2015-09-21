@@ -71,9 +71,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             String username = eteUsername.getText().toString();
             String password = etePassword.getText().toString();
 
-            //new LoginPresenter(this).login(username, password);
+            new LoginPresenter(this).login(username, password);
 
-            onLoginCorrecto();
+            //onLoginCorrecto();
 
         }else if (view.getId() == R.id.butLoginFacebook){
             Log.i("MainActivity", "Se hizo click en el boton LoginFacebook");
